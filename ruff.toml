@@ -1,0 +1,14 @@
+[format]
+quote-style = "double"
+
+
+[lint]
+fixable = ["ALL"]
+
+select = ["ALL"]
+
+ignore = [
+  # https://beta.ruff.rs/docs/rules/#pydocstyle-d
+  "D",
+  "INP001"
+]
